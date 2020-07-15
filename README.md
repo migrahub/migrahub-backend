@@ -79,6 +79,28 @@ heroku config:set DATABASE_PORT=<database_port>
 heroku config:set DATABASE_NAME=<database_name>
 ```
 
+### 4. Publish your heroku project
+
+Finally, just run:
+
+```bash
+git push heroku master
+```
+
+And then, to access your newly deployed backend:
+
+```bash
+heroku open
+```
+
+You will now need to set-up your `admin user` by accessing `/admin` in your heroku project URL, and you're ready to go!
+
+### 5. Maintenance, fixes & new features
+
+Have you changed anything?
+
+If so, don't forget to commit your changes and repeat step 4 to deploy them to Heroku.
+
 # :postbox: Faq
 
 **Question:** What are the tecnologies used in this project?
