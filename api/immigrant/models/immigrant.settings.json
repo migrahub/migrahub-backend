@@ -40,6 +40,9 @@
     },
     "email": {
       "type": "email"
+    },
+    "familyData": {
+      "model": "parental-data"
     }
   }
 }
