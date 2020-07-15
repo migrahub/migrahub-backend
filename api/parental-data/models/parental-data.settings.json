@@ -29,7 +29,7 @@
     "childrenCount": {
       "type": "integer"
     },
-    "family_members": {
+    "familyMembers": {
       "collection": "family-member"
     }
   }
