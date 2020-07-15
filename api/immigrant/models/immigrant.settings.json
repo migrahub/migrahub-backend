@@ -29,9 +29,6 @@
     "birthdate": {
       "type": "date"
     },
-    "email": {
-      "type": "string"
-    },
     "nationality": {
       "type": "string"
     },
@@ -40,6 +37,9 @@
     },
     "phone": {
       "type": "string"
+    },
+    "email": {
+      "type": "email"
     }
   }
 }
