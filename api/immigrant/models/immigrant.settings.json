@@ -10,10 +10,13 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "private": false,
+      "required": true
     },
     "document": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "gender": {
       "type": "enumeration",
