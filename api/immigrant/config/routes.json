@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/immigrants",
+      "handler": "immigrant.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/immigrants/count",
+      "handler": "immigrant.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/immigrants/:id",
+      "handler": "immigrant.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/immigrants",
+      "handler": "immigrant.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/immigrants/:id",
+      "handler": "immigrant.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/immigrants/:id",
+      "handler": "immigrant.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

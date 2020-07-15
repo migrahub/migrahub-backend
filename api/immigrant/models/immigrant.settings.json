@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "immigrants",
+  "info": {
+    "name": "Immigrant"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "document": {
+      "type": "string"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "MALE",
+        "FEMALE",
+        "OTHER"
+      ]
+    },
+    "birthdate": {
+      "type": "date"
+    },
+    "email": {
+      "type": "string"
+    },
+    "nationality": {
+      "type": "string"
+    }
+  }
+}
