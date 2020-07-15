@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/parental-data",
+      "handler": "parental-data.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/parental-data/count",
+      "handler": "parental-data.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/parental-data/:id",
+      "handler": "parental-data.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/parental-data",
+      "handler": "parental-data.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/parental-data/:id",
+      "handler": "parental-data.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/parental-data/:id",
+      "handler": "parental-data.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

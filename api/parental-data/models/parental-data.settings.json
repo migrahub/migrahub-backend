@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "parental_data",
+  "info": {
+    "name": "FamilyData"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "maritalStatus": {
+      "type": "enumeration",
+      "enum": [
+        "SINGLE",
+        "MARRIED",
+        "WIDOWED",
+        "DIVORCED",
+        "SEPARATED",
+        "REGISTERED_PARTNERSHIP"
+      ]
+    },
+    "childrenAreInSchool": {
+      "type": "boolean"
+    },
+    "familyIncome": {
+      "type": "decimal"
+    },
+    "childrenCount": {
+      "type": "integer"
+    },
+    "family_members": {
+      "collection": "family-member"
+    }
+  }
+}
